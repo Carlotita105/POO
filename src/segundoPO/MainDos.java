@@ -18,7 +18,9 @@ public class MainDos {
 		double incremento=new Scanner(System.in).nextDouble();
 		p.crecer(incremento);
 		System.out.printf("tu estatura ahora es -> %.2f" ,p.estatura);
-		 
+		persona a=new persona("Pepe",15,1.90);
+		System.out.println(a.nombre + " " + a.edad+ " " +a.estatura);
+		
 	
 	}
 

@@ -3,7 +3,7 @@ package segundoPO;
 public class persona {
 
 	String nombre;
-	byte edad=5;
+	int edad=5;
 	double estatura;
 	
 	
@@ -19,5 +19,23 @@ public class persona {
 	public void crecer(double incremento) {
 		estatura+=incremento; //la estatura aumenta segun en el incremento
 	}
+	public persona() {
+		this.nombre=nombre;
+		
+	}
 
-}
+	public persona(String nombre, int edad, double estatura) {
+		this.nombre= nombre;
+		this.edad = edad;
+		this.estatura = estatura;
+	}
+
+	
+
+	
+		
+	}
+  
+	 
+
+
